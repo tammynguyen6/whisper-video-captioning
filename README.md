@@ -52,12 +52,29 @@ The pipeline consists of four stages:
 
 ---
 
+## Screenshots
+
+### Working Application Demo
+![App Demo](screenshots/app_demo.png)
+
+### Training Analysis
+![Training Loss](screenshots/training_loss.png)
+![Training Loss Box Plot](screenshots/training_loss_boxplot.png)
+![Training Loss Distribution](screenshots/training_loss_distribution.png)
+
+---
+
 ## Repository Contents
 
 ```
 whisper-video-captioning/
 ├── paper/
 │   └── whisper_video_captioning_CITA2025.pdf   # Published Springer paper
+├── screenshots/
+│   ├── app_demo.png                             # Working subtitle generator demo
+│   ├── training_loss.png                        # Training vs validation loss
+│   ├── training_loss_boxplot.png                # Box plot of training loss
+│   └── training_loss_distribution.png           # Distribution of training loss
 └── README.md
 ```
 
